@@ -50,11 +50,13 @@ These results describe representation separability under a source-label-informed
 ```text
 cross-domain-scibert-analysis/
 ├── notebooks/scibert_cross_domain_analysis.ipynb
+├── notebooks/scibert_transfer_pipeline.ipynb
+├── notebooks/tfidf_scibert_umap_comparison.ipynb
 ├── requirements.txt
 └── README.md
 ```
 
-The repository includes the latest stepwise analysis notebook. An older overlapping prototype was excluded to avoid duplicating nearly identical pipelines.
+The canonical stepwise notebook is accompanied by two distinct experimental variants: an earlier source-to-target SciBERT pipeline and a compact TF-IDF/SciBERT/UMAP comparison. Exact duplicate uploads are intentionally represented only once.
 
 ## Reproducibility notes
 
@@ -70,4 +72,4 @@ This is ongoing research. The uploaded manuscript draft contained placeholder au
 
 ## Contact
 
-**Protik Biswas** · [GitHub](https://github.com/pkhunter47) · [LinkedIn](https://www.linkedin.com/in/protik-biswas-83001827b/) · [Email](mailto:protikbiswas3099@gmail.com)
+**Protik Biswas** · [GitHub](https://github.com/pkhunter47) · [LinkedIn](https://www.linkedin.com/in/protik-biswas-83001827b/)
